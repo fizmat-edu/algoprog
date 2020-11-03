@@ -65,7 +65,7 @@ export default arithmeticalOperations = () ->
             topic("Задачи", "Продвинутые задачи на арифметические операции: в них запрещается пользоваться if'ами и циклами", [
                 module25368(),
                 label("<br>"),
-                problem({testSystem: "ejudge", contest: "2003", problem: "1", id: "2946"}),
+                # problem({testSystem: "ejudge", contest: "2003", problem: "1", id: "2946"}),
                 problem(2945),
                 problem(506),
                 problem(534),
