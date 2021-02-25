@@ -7,7 +7,8 @@ const OptimizeCssAssetWebpackPlugin = require('optimize-css-assets-webpack-plugi
 const TerserWebpackPlugin = require('terser-webpack-plugin')
 const WebpackAssetsManifest = require('webpack-assets-manifest')
 
-const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === 'development'
+// const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === 'development'
+const isDev = false
 console.log('IS DEV:', isDev)
 const isProd = !isDev
 const mode = isDev ? 'development' : 'production'

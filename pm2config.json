@@ -1,0 +1,9 @@
+{
+  "apps": [{
+    "script" : "./build/server/server.bundle.js",
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": "3000"
+    }
+  }]
+}
